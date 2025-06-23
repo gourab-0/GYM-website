@@ -23,10 +23,6 @@ A modern and responsive GYM website built using HTML, CSS, and JavaScript. This 
 
 ---
 
-## 📂 Folder Structure (Example)
-
-
----
 
 ## 🌐 Live Demo
 

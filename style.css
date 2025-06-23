@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(image/Bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+header .nav .logo h1{
+    color: #fff;
+    cursor: pointer;
+}
+
+header .nav .logo h1 span{
+    font-size: 18px;
+    margin-left: 5px;
+    color: #facc22;
+}
+
+header .nav ul{
+    list-style: none;
+}
+
+header .nav ul li{
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+header .nav ul li:active{
+    color: #facc22;
+}
+
+header h1.tag{
+    color: #fff;
+    font-size: 65px;
+    margin-left: 2%;
+    margin-top: 100px;
+    font-style: italic;
+    width: 600px;
+}
+
+header h1.tag span{
+    color: #facc22;
+}
+
+header p.texts{
+    color: #d2d2d2;
+    width: 500px;
+    margin-left: 2%;
+    margin-top: 20px;
+    line-height: 24px;
+    text-align: justify;
+    font-style: italic;
+}
+
+header button{
+    background-color: #facc22;
+    padding: 9px 12px;
+    margin-left: 2%;
+    font-size: 16px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+/*About*/
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 28px 2%;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about .A_right img{
+    width: 480px;
+}
+
+.about .A_left h4{
+    color: #facc22;
+    margin-bottom: 15px;
+}
+
+.about .A_left h2{
+    color: #fff;
+    font-size: 35px;
+    width: 600px;
+    line-height: 46px;
+}
+
+.about .A_left p.details{
+    color: #d2d2d2;
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.about .A_left p.services{
+    font-style: normal;
+    color: #fff;
+    line-height: 45px;
+}
+
+.about .A_left p.services i{
+    color: #facc22;
+    margin-right: 12px;
+}
+
+/*Classes*/
+
+.classes{
+    width: 100%;
+    height: auto;
+    padding: 28px 2%;
+    background-color: #151515;
+}
+
+.classes h4{
+    color: #facc22;
+    text-align: center;
+}
+
+.classes h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.classes h2 span{
+    color: #facc22;
+    margin-right: 10px;
+}
+
+.classes .C_box{
+    width: 100%;
+    height: auto;
+    padding: 25px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.classes .C_box .C_card{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.classes .C_box .C_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.classes .C_box .C_card:hover img{
+    opacity: 1;
+}
+
+.classes .C_box .C_card .details_box{
+    width: 450px;
+    height: 40px;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100% 0% 100%);
+    bottom: 58px;
+    transition: 0.4s;
+}
+
+.classes .C_box .C_card:hover .details_box{
+    background-color: #facc22;
+    opacity: 0.8;
+}
+
+.classes .C_box .C_card .details_box h2{
+    font-size: 23px;
+    padding-top: 7px;
+    font-style: italic;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.classes .C_box .C_card:hover .details_box h2{
+    color: #000;
+}
+
+/*Plan*/
+
+.plan{
+    width: 100%;
+    height: auto;
+    background-color: #151515;
+    padding: 0 2% 28px 2%;
+}
+
+.plan h2{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.plan h2 span{
+    margin-left: 10px;
+    color: #facc22;
+}
+
+.plan .p_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.plan .p_box .p_card{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+.plan .p_box .p_card h4{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.plan .p_box .p_card h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 45px;
+    color: #facc22;
+    font-family: "Bahamas";
+}
+
+.plan .p_box .p_card .plans{
+    text-align: center;
+    line-height: 45px;
+    color: #d2d2d2;
+    margin-bottom: 10px;
+}
+
+.plan .p_box .p_card a{
+    width: 200px;
+    border: 1px solid #facc22;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.plan .p_box .p_card a:hover{
+    background-color: #facc22;
+    color: #000;
+}
+
+.plan H4{
+    color: #facc22;
+    text-align: center;
+}
+
+/*Registration*/
+
+.registration{
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/Banner_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.registration h1{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.registration p{
+    color: #d2d2d2;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.registration button{
+    color: #fff;
+    background: none;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 25px;
+    border: 1px solid #facc22;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.registration button:hover{
+    color: #000;
+    background-color: #facc22;
+}
+
+/*Gallery*/
+
+.gallery{
+    width: 100%;
+    height: auto;
+    background-color: #151515;
+    padding: 20px 2%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery .image{
+    width: 480px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.gallery .image img{
+    width: 480px;
+    height: 340px;
+    transition: 0.4s;
+}
+
+.gallery .image img:hover{
+    transform: scale(1.1);
+}
+
+/*Team*/
+
+.team{
+    width: 100%;
+    height: auto;
+    padding: 28px 2%;
+    background-color: #151515;
+}
+
+.team h4{
+    color: #facc22;
+    text-align: center;
+}
+
+.team h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.team h2 span{
+    color: #facc22;
+    margin-left: 10px;
+}
+
+.team .t_box{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team .t_box .t_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team .t_box .t_card{
+    width: 275px;
+    height: 365px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.team .t_box .t_card .t_tag{
+    width: 275px;
+    height: 365px;
+    background: #151515;
+    position: absolute;
+    top: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.team .t_box .t_card:hover .t_tag{
+    top: 0;
+}
+
+.team .t_box .t_card .t_tag p.name{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+    color: #facc22;
+}
+
+.team .t_box .t_card .t_tag p.trainer{
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #d2d2d2;
+    font-size: 15px;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #151515;
+    padding: 28px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .socialmedia .f_logo h1{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+footer .socialmedia .f_logo h1 span{
+    font-size: 18px;
+    margin-left: 5px;
+    color: #facc22;
+}
+
+footer .socialmedia .f_tag p{
+    color: #d2d2d2;
+    width: 450px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+footer .socialmedia .f_tag .f_icon{
+    display: flex;
+    margin-top: 10px;
+}
+
+footer .socialmedia .f_tag .f_icon .back{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    background: #facc22;
+    border-radius: 50%;
+}
+
+footer .socialmedia .f_tag .f_icon .back i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer .mid{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .mid .f_left h2{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer .mid .f_left p{
+    color: #d2d2d2;
+    line-height: 30px;
+    transition: 0.4s;
+}
+
+footer .mid .f_left p:hover{
+    color: #facc22;
+}
+
+footer .mid .f_left p i{
+    margin-right: 9px;
+    font-size: 10px;
+}
+
+footer .mid .f_right h2{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer .mid .f_right p{
+    color: #d2d2d2;
+    font-style: italic;
+    line-height: 30px;
+}
+
+footer .mid .f_right p i{
+    margin-right: 9px;
+    font-size: 10px;
+    color: #facc22;
+}
+
+footer .search h2{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer .search input{
+    width: 230px;
+    padding: 8px 7px;
+    border: 1px solid #facc22;
+    background: #facb2210;
+    color: #d2d2d2;
+    outline: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-style: italic;
+}
+
+footer .search label{
+    color: #facc22;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.end{
+    text-align: center;
+    background: #151515;
+    font-style: italic;
+    color: #d2d2d2;
+    padding-bottom: 20px;
+}
+
+.end i{
+    margin: 0 8px;
+}
+
+.end span{
+    color: #facc22;
+}
